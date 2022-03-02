@@ -31,10 +31,10 @@ for (let i = hora_actual; i < hora_dormir; i++) {
     console.log(`Son las ${i}h.`);
     switch (i) {
         case 8:
-            console.log("Wake up");
+            console.log("El sim se despierta.");
             break;
         case 9:
-            console.log("Desayuno");
+            console.log("El sim desayuna.");
             break;
         case 10:
         case 11:
@@ -43,22 +43,23 @@ for (let i = hora_actual; i < hora_dormir; i++) {
         case 14:
         case 15:
         case 16:
-            console.log("Estudio");
+            console.log("El sim estudia Front End.");
             break;
         case 17:
-            console.log("Siesta");
+            console.log("El sim se echa una siesta.");
             break;
         case 18:
         case 19:
         case 20:
         case 21:
         case 22:
-            console.log("Tiempo libre");
+            console.log("El sim tiene tiempo libre.");
             break;
         case 23:
-            console.log("Mimir");
+            console.log("El sim se va a dormir.");
             break;
     }
+    console.log();
 }
 
 
