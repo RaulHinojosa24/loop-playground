@@ -27,5 +27,38 @@
 let hora_actual = 8;
 let hora_dormir = 24;
 
+for (let i = hora_actual; i < hora_dormir; i++) {
+    console.log(`Son las ${i}h.`);
+    switch (i) {
+        case 8:
+            console.log("Wake up");
+            break;
+        case 9:
+            console.log("Desayuno");
+            break;
+        case 10:
+        case 11:
+        case 12:
+        case 13:
+        case 14:
+        case 15:
+        case 16:
+            console.log("Estudio");
+            break;
+        case 17:
+            console.log("Siesta");
+            break;
+        case 18:
+        case 19:
+        case 20:
+        case 21:
+        case 22:
+            console.log("Tiempo libre");
+            break;
+        case 23:
+            console.log("Mimir");
+            break;
+    }
+}
 
 

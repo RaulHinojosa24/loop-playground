@@ -10,8 +10,8 @@
  * Piensa bien que debes cambiar. Solo has de hacer una modificación para conseguirlo.
  */
 
- let numeroVeces = 5;
+let numeroVeces = 5;
 
- for (let i=0; i<10; i++) {
-    console.log("Ejecuto!")
- }
+for (let i = 0; i < numeroVeces; i++) {
+   console.log("Ejecuto!")
+}
